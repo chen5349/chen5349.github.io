@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="generator" content="Hexo">
-    <title>Hello World - Hexo</title>
+    <title>Visualization - plotly + python - Hexo</title>
     <meta name="author" content="John Doe">
     
     
@@ -15,24 +15,33 @@
             <link rel="alternate" type="application/atom+xml" title="RSS" href="/atom.xml">
         
     
-    <script type="application/ld+json">{"@context":"http://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"John Doe","sameAs":["https://github.com/","http://stackoverflow.com/users","https://twitter.com/","https://facebook.com/","https://plus.google.com/","https://www.linkedin.com/profile/","mailto"]},"articleBody":"Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.\nQuick StartCreate a new post1$ hexo new &quot;My New Post&quot;\n\nMore info: Writing\nRun server1$ hexo server\n\nMore info: Server\nGenerate static files1$ hexo generate\n\nMore info: Generating\nDeploy to remote sites1$ hexo deploy\n\nMore info: Deployment\n","dateCreated":"2021-06-26T20:05:51+08:00","dateModified":"2021-06-26T20:05:51+08:00","datePublished":"2021-06-26T20:05:51+08:00","description":"","headline":"Hello World","image":[],"mainEntityOfPage":{"@type":"WebPage","@id":"http://example.com/2021/06/26/hello-world/"},"publisher":{"@type":"Organization","name":"John Doe","sameAs":["https://github.com/","http://stackoverflow.com/users","https://twitter.com/","https://facebook.com/","https://plus.google.com/","https://www.linkedin.com/profile/","mailto"]},"url":"http://example.com/2021/06/26/hello-world/"}</script>
-    <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+    <script type="application/ld+json">{"@context":"http://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"John Doe","sameAs":["https://github.com/","http://stackoverflow.com/users","https://twitter.com/","https://facebook.com/","https://plus.google.com/","https://www.linkedin.com/profile/","mailto"]},"articleBody":"This post will introduce how to visualize the data on the map with the use of choropleth_mapbox, a mighty tool to make realize animation.\n\n\nEnvironmental Complexity across China\n    \n    \n\n\nEnvironmental Dispersion across China\n    \n    \n\n\n","dateCreated":"2021-06-27T15:55:40+08:00","dateModified":"2021-06-27T20:24:58+08:00","datePublished":"2021-06-27T15:55:40+08:00","description":"This post will introduce how to visualize the data on the map with the use of choropleth_mapbox, a mighty tool to make realize animation.","headline":"Visualization - plotly + python","image":[null,"image-2.png"],"mainEntityOfPage":{"@type":"WebPage","@id":"http://example.com/2021/06/27/Visualization_plotpython/"},"publisher":{"@type":"Organization","name":"John Doe","sameAs":["https://github.com/","http://stackoverflow.com/users","https://twitter.com/","https://facebook.com/","https://plus.google.com/","https://www.linkedin.com/profile/","mailto"]},"url":"http://example.com/2021/06/27/Visualization_plotpython/","keywords":"plotly, python, External Environment","thumbnailUrl":"image-2.png"}</script>
+    <meta name="description" content="This post will introduce how to visualize the data on the map with the use of choropleth_mapbox, a mighty tool to make realize animation.">
 <meta property="og:type" content="blog">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://example.com/2021/06/26/hello-world/index.html">
+<meta property="og:title" content="Visualization - plotly + python">
+<meta property="og:url" content="http://example.com/2021/06/27/Visualization_plotpython/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta property="og:description" content="This post will introduce how to visualize the data on the map with the use of choropleth_mapbox, a mighty tool to make realize animation.">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2021-06-26T12:05:51.689Z">
-<meta property="article:modified_time" content="2021-06-26T12:05:51.690Z">
+<meta property="og:image" content="https://plotly.com/404.png">
+<meta property="og:image" content="https://plotly.com/404.png">
+<meta property="article:published_time" content="2021-06-27T07:55:40.000Z">
+<meta property="article:modified_time" content="2021-06-27T12:24:58.846Z">
 <meta property="article:author" content="John Doe">
+<meta property="article:tag" content="plotly">
+<meta property="article:tag" content="python">
+<meta property="article:tag" content="External Environment">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://plotly.com/404.png">
     
     
         
     
     
     
+    
+        <meta property="og:image" content="http://example.com/2021/06/27/Visualization_plotpython/image-2.png"/>
+        <meta class="swiftype" name="image" data-type="enum" content="http://example.com/2021/06/27/Visualization_plotpython/image-2.png"/>
     
     
     <!--STYLES-->
@@ -45,8 +54,6 @@
     
 
     
-        
-    
 </head>
 
     <body>
@@ -56,7 +63,7 @@
 
     
 
-<header id="header" data-behavior="4">
+<header id="header" data-behavior="1">
     <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
     <div class="header-title">
         <a
@@ -83,7 +90,7 @@
             <!-- Define author's picture -->
 
 
-<nav id="sidebar" data-behavior="4">
+<nav id="sidebar" data-behavior="1">
     <div class="sidebar-container">
         
         
@@ -311,49 +318,65 @@
 </nav>
 
             
-            <div id="main" data-behavior="4"
-                 class="
-                        hasCoverMetaIn
-                        ">
-                
-<article class="post">
-    
-    
-        <div class="post-header main-content-wrap text-left">
+        <div class="post-header-cover
+                    text-center
+                    post-header-cover--partial"
+             style="background-image:url('/2021/06/27/Visualization_plotpython/image-2.png');"
+             data-behavior="1">
+            
+                <div class="post-header main-content-wrap text-center">
     
         <h1 class="post-title">
-            Hello World
+            Visualization - plotly + python
         </h1>
     
     
         <div class="post-meta">
-    <time datetime="2021-06-26T20:05:51+08:00">
+    <time datetime="2021-06-27T15:55:40+08:00">
 	
-		    Jun 26, 2021
+		    Jun 27, 2021
     	
     </time>
     
+        <span>in </span>
+        
+    <a class="category-link" href="/categories/visualization/">visualization</a>
+
+
+    
 </div>
 
     
 </div>
 
+            
+        </div>
+
+            <div id="main" data-behavior="1"
+                 class="hasCover
+                        hasCoverMetaIn
+                        hasCoverCaption">
+                
+<article class="post">
+    
+        <span class="post-header-cover-caption caption">A beautiful sunrise</span>
+    
     
     <div class="post-content markdown">
         <div class="main-content-wrap">
-            <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+            <p>This post will introduce how to visualize the data on the map with the use of choropleth_mapbox, a mighty tool to make realize animation.</p>
+<span id="more"></span>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<h3 id="Environmental-Complexity-across-China"><a href="#Environmental-Complexity-across-China" class="headerlink" title="Environmental Complexity across China"></a>Environmental Complexity across China</h3><div>
+    <a href="https://plotly.com/~chen5349/31/?share_key=h1E9vkvdUuh6pB7jXfF6ao" target="_blank" title="Environmental Heterogeneity" style="display: block; text-align: center;"><img src="https://plotly.com/~chen5349/31.png?share_key=h1E9vkvdUuh6pB7jXfF6ao" alt="Environmental Heterogeneity" style="max-width: 100%;width: 759px;"  width="759" onerror="this.onerror=null;this.src='https://plotly.com/404.png';" /></a>
+    <script data-plotly="chen5349:31" sharekey-plotly="h1E9vkvdUuh6pB7jXfF6ao" src="https://plotly.com/embed.js" async></script>
+</div>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<h4 id="Environmental-Dispersion-across-China"><a href="#Environmental-Dispersion-across-China" class="headerlink" title="Environmental Dispersion across China"></a>Environmental Dispersion across China</h4><div>
+    <a href="https://plotly.com/~chen5349/33/?share_key=GbkLVug50xwH1jrtw2RWnm" target="_blank" title="Environmental Dispersion" style="display: block; text-align: center;"><img src="https://plotly.com/~chen5349/33.png?share_key=GbkLVug50xwH1jrtw2RWnm" alt="Environmental Dispersion" style="max-width: 100%;width: 759px;"  width="759" onerror="this.onerror=null;this.src='https://plotly.com/404.png';" /></a>
+    <script data-plotly="chen5349:33" sharekey-plotly="GbkLVug50xwH1jrtw2RWnm" src="https://plotly.com/embed.js" async></script>
+</div>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 
             
 
@@ -362,24 +385,17 @@
     </div>
     <div id="post-footer" class="post-footer main-content-wrap">
         
+            <div class="post-footer-tags">
+                <span class="text-color-light text-small">TAGGED IN</span><br/>
+                
+    <a class="tag tag--primary tag--small t-none-link" href="/tags/External-Environment/" rel="tag">External Environment</a> <a class="tag tag--primary tag--small t-none-link" href="/tags/plotly/" rel="tag">plotly</a> <a class="tag tag--primary tag--small t-none-link" href="/tags/python/" rel="tag">python</a>
+
+            </div>
+        
         
             <div class="post-actions-wrap">
     <nav>
         <ul class="post-actions post-action-nav">
-            <li class="post-action">
-                
-                    
-                <a
-                    class="post-action-btn btn btn--default tooltip--top"
-                    href="/2021/06/26/My-New-Post/"
-                    data-tooltip="My New Post"
-                    aria-label="PREVIOUS: My New Post"
-                >
-                    
-                        <i class="fa fa-angle-left" aria-hidden="true"></i>
-                        <span class="hide-xs hide-sm text-small icon-ml">PREVIOUS</span>
-                    </a>
-            </li>
             <li class="post-action">
                 
                     <a
@@ -387,6 +403,20 @@
                         aria-hidden="true"
                     >
                         
+                        <i class="fa fa-angle-left" aria-hidden="true"></i>
+                        <span class="hide-xs hide-sm text-small icon-ml">PREVIOUS</span>
+                    </a>
+            </li>
+            <li class="post-action">
+                
+                    
+                <a
+                    class="post-action-btn btn btn--default tooltip--top"
+                    href="/2021/06/27/try/"
+                    data-tooltip="try"
+                    aria-label="NEXT: try"
+                >
+                    
                         <span class="hide-xs hide-sm text-small icon-mr">NEXT</span>
                         <i class="fa fa-angle-right" aria-hidden="true"></i>
                     </a>
@@ -409,7 +439,7 @@
             <li class="post-action hide-xs">
                 <a
                     class="post-action-btn btn btn--default"
-                    target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://example.com/2021/06/26/hello-world/"
+                    target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://example.com/2021/06/27/Visualization_plotpython/"
                     title="Share on Facebook"
                     aria-label="Share on Facebook"
                 >
@@ -422,7 +452,7 @@
             <li class="post-action hide-xs">
                 <a
                     class="post-action-btn btn btn--default"
-                    target="new" href="https://twitter.com/intent/tweet?text=http://example.com/2021/06/26/hello-world/"
+                    target="new" href="https://twitter.com/intent/tweet?text=http://example.com/2021/06/27/Visualization_plotpython/"
                     title="Share on Twitter"
                     aria-label="Share on Twitter"
                 >
@@ -435,7 +465,7 @@
             <li class="post-action hide-xs">
                 <a
                     class="post-action-btn btn btn--default"
-                    target="new" href="https://plus.google.com/share?url=http://example.com/2021/06/26/hello-world/"
+                    target="new" href="https://plus.google.com/share?url=http://example.com/2021/06/27/Visualization_plotpython/"
                     title="Share on Google+"
                     aria-label="Share on Google+"
                 >
@@ -443,8 +473,6 @@
                 </a>
             </li>
         
-        
-            
         
         <li class="post-action">
             
@@ -458,8 +486,6 @@
 
 
         
-        
-            
         
     </div>
 </article>
@@ -474,24 +500,10 @@
 
             </div>
             
-                <div id="bottom-bar" class="post-bottom-bar" data-behavior="4">
+                <div id="bottom-bar" class="post-bottom-bar" data-behavior="1">
                     <div class="post-actions-wrap">
     <nav>
         <ul class="post-actions post-action-nav">
-            <li class="post-action">
-                
-                    
-                <a
-                    class="post-action-btn btn btn--default tooltip--top"
-                    href="/2021/06/26/My-New-Post/"
-                    data-tooltip="My New Post"
-                    aria-label="PREVIOUS: My New Post"
-                >
-                    
-                        <i class="fa fa-angle-left" aria-hidden="true"></i>
-                        <span class="hide-xs hide-sm text-small icon-ml">PREVIOUS</span>
-                    </a>
-            </li>
             <li class="post-action">
                 
                     <a
@@ -499,6 +511,20 @@
                         aria-hidden="true"
                     >
                         
+                        <i class="fa fa-angle-left" aria-hidden="true"></i>
+                        <span class="hide-xs hide-sm text-small icon-ml">PREVIOUS</span>
+                    </a>
+            </li>
+            <li class="post-action">
+                
+                    
+                <a
+                    class="post-action-btn btn btn--default tooltip--top"
+                    href="/2021/06/27/try/"
+                    data-tooltip="try"
+                    aria-label="NEXT: try"
+                >
+                    
                         <span class="hide-xs hide-sm text-small icon-mr">NEXT</span>
                         <i class="fa fa-angle-right" aria-hidden="true"></i>
                     </a>
@@ -521,7 +547,7 @@
             <li class="post-action hide-xs">
                 <a
                     class="post-action-btn btn btn--default"
-                    target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://example.com/2021/06/26/hello-world/"
+                    target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://example.com/2021/06/27/Visualization_plotpython/"
                     title="Share on Facebook"
                     aria-label="Share on Facebook"
                 >
@@ -534,7 +560,7 @@
             <li class="post-action hide-xs">
                 <a
                     class="post-action-btn btn btn--default"
-                    target="new" href="https://twitter.com/intent/tweet?text=http://example.com/2021/06/26/hello-world/"
+                    target="new" href="https://twitter.com/intent/tweet?text=http://example.com/2021/06/27/Visualization_plotpython/"
                     title="Share on Twitter"
                     aria-label="Share on Twitter"
                 >
@@ -547,7 +573,7 @@
             <li class="post-action hide-xs">
                 <a
                     class="post-action-btn btn btn--default"
-                    target="new" href="https://plus.google.com/share?url=http://example.com/2021/06/26/hello-world/"
+                    target="new" href="https://plus.google.com/share?url=http://example.com/2021/06/27/Visualization_plotpython/"
                     title="Share on Google+"
                     aria-label="Share on Google+"
                 >
@@ -555,8 +581,6 @@
                 </a>
             </li>
         
-        
-            
         
         <li class="post-action">
             
@@ -571,7 +595,7 @@
 
                 </div>
                 
-    <div id="share-options-bar" class="share-options-bar" data-behavior="4">
+    <div id="share-options-bar" class="share-options-bar" data-behavior="1">
         <i id="btn-close-shareoptions" class="fa fa-times"></i>
         <ul class="share-options">
             
@@ -581,7 +605,7 @@
                     <a
                         class="share-option-btn"
                         target="new"
-                        href="https://www.facebook.com/sharer/sharer.php?u=http://example.com/2021/06/26/hello-world/"
+                        href="https://www.facebook.com/sharer/sharer.php?u=http://example.com/2021/06/27/Visualization_plotpython/"
                         aria-label="Share on Facebook"
                     >
                         <i class="fab fa-facebook" aria-hidden="true"></i><span>Share on Facebook</span>
@@ -594,7 +618,7 @@
                     <a
                         class="share-option-btn"
                         target="new"
-                        href="https://twitter.com/intent/tweet?text=http://example.com/2021/06/26/hello-world/"
+                        href="https://twitter.com/intent/tweet?text=http://example.com/2021/06/27/Visualization_plotpython/"
                         aria-label="Share on Twitter"
                     >
                         <i class="fab fa-twitter" aria-hidden="true"></i><span>Share on Twitter</span>
@@ -607,7 +631,7 @@
                     <a
                         class="share-option-btn"
                         target="new"
-                        href="https://plus.google.com/share?url=http://example.com/2021/06/26/hello-world/"
+                        href="https://plus.google.com/share?url=http://example.com/2021/06/27/Visualization_plotpython/"
                         aria-label="Share on Google+"
                     >
                         <i class="fab fa-google-plus" aria-hidden="true"></i><span>Share on Google+</span>
@@ -803,8 +827,6 @@
 
 <!--SCRIPTS END-->
 
-
-    
 
 
 
