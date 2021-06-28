@@ -6,7 +6,7 @@
   <link href="http://chen5349.github.io/atom.xml" rel="self"/>
   
   <link href="http://chen5349.github.io/"/>
-  <updated>2021-06-28T13:35:10.798Z</updated>
+  <updated>2021-06-28T14:46:59.417Z</updated>
   <id>http://chen5349.github.io/</id>
   
   <author>
@@ -17,24 +17,28 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>picture</title>
+    <title>Cloudinary + Hexo</title>
     <link href="http://chen5349.github.io/2021/06/28/picture/"/>
     <id>http://chen5349.github.io/2021/06/28/picture/</id>
     <published>2021-06-28T12:44:52.000Z</published>
-    <updated>2021-06-28T13:35:10.798Z</updated>
+    <updated>2021-06-28T14:46:59.417Z</updated>
     
-    <content type="html"><![CDATA[<img src="https://res.cloudinary.com/chen5349/image/upload/v1624886985/figure1_ae1mrk.png" style="zoom:65%;">]]></content>
+    <content type="html"><![CDATA[<img alt itemprop="image" src="https://res.cloudinary.com/chen5349/image/upload/v1624888727/landscape/wp4815672_ywb8si.jpg" style="display: block;"><p>Try many ways to upload images to hexo, fail in a day’s trials. </p><p>Only url method works. You can use url directly for gravatar and blog.</p> <span id="more"></span><h3 id><a href="#" class="headerlink" title></a></h3><img src="https://res.cloudinary.com/chen5349/image/upload/v1624887862/landscape/30-beautiful-wallpapers-for-long-screen-phones-picture-1-NxU2xsS4c_jgynsi.jpg" style="zoom:100%;">]]></content>
     
     
-      
-      
-    <summary type="html">&lt;img src=&quot;https://res.cloudinary.com/chen5349/image/upload/v1624886985/figure1_ae1mrk.png&quot; style=&quot;zoom:65%;&quot;&gt;
+    <summary type="html">&lt;img alt itemprop=&quot;image&quot; src=&quot;https://res.cloudinary.com/chen5349/image/upload/v1624888727/landscape/wp4815672_ywb8si.jpg&quot; style=&quot;display: block;&quot;&gt;
 
-</summary>
-      
+&lt;p&gt;Try many ways to upload images to hexo, fail in a day’s trials. &lt;/p&gt;
+&lt;p&gt;Only url method works. You can use url directly for gravatar and blog.&lt;/p&gt;</summary>
     
     
     
+    <category term="visualization" scheme="http://chen5349.github.io/categories/visualization/"/>
+    
+    
+    <category term="hexo" scheme="http://chen5349.github.io/tags/hexo/"/>
+    
+    <category term="url" scheme="http://chen5349.github.io/tags/url/"/>
     
   </entry>
   
@@ -43,7 +47,7 @@
     <link href="http://chen5349.github.io/2021/06/27/Visualization_plotpython/"/>
     <id>http://chen5349.github.io/2021/06/27/Visualization_plotpython/</id>
     <published>2021-06-27T07:55:40.000Z</published>
-    <updated>2021-06-28T12:44:14.344Z</updated>
+    <updated>2021-06-28T14:45:05.058Z</updated>
     
     <content type="html"><![CDATA[<p>This post will introduce how to visualize the data on the map with the use of choropleth_mapbox, a mighty tool to realize animation.</p><span id="more"></span><h3 id="Environmental-Complexity-across-China"><a href="#Environmental-Complexity-across-China" class="headerlink" title="Environmental Complexity across China"></a>Environmental Complexity across China</h3><div>    <a href="https://plotly.com/~chen5349/31/?share_key=h1E9vkvdUuh6pB7jXfF6ao" target="_blank" title="Environmental Heterogeneity" style="display: block; text-align: center;"><img src="https://plotly.com/~chen5349/31.png?share_key=h1E9vkvdUuh6pB7jXfF6ao" alt="Environmental Heterogeneity" style="max-width: 100%;width: 759px;" width="759" onerror="this.onerror=null;this.src='https://plotly.com/404.png';"></a>    <script data-plotly="chen5349:31" sharekey-plotly="h1E9vkvdUuh6pB7jXfF6ao" src="https://plotly.com/embed.js" async></script></div><h4 id="Environmental-Dispersion-across-China"><a href="#Environmental-Dispersion-across-China" class="headerlink" title="Environmental Dispersion across China"></a>Environmental Dispersion across China</h4><div>    <a href="https://plotly.com/~chen5349/33/?share_key=GbkLVug50xwH1jrtw2RWnm" target="_blank" title="Environmental Dispersion" style="display: block; text-align: center;"><img src="https://plotly.com/~chen5349/33.png?share_key=GbkLVug50xwH1jrtw2RWnm" alt="Environmental Dispersion" style="max-width: 100%;width: 759px;" width="759" onerror="this.onerror=null;this.src='https://plotly.com/404.png';"></a>    <script data-plotly="chen5349:33" sharekey-plotly="GbkLVug50xwH1jrtw2RWnm" src="https://plotly.com/embed.js" async></script></div>]]></content>
     
