@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Hexo</title>
+  <title>Personal Blog</title>
   
   
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="http://chen5349.github.io/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
-  <updated>2021-06-27T12:24:58.846Z</updated>
-  <id>http://example.com/</id>
+  <link href="http://chen5349.github.io/"/>
+  <updated>2021-06-28T01:58:07.166Z</updated>
+  <id>http://chen5349.github.io/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>Wenna Chen</name>
     
   </author>
   
@@ -18,26 +18,26 @@
   
   <entry>
     <title>Visualization - plotly + python</title>
-    <link href="http://example.com/2021/06/27/Visualization_plotpython/"/>
-    <id>http://example.com/2021/06/27/Visualization_plotpython/</id>
+    <link href="http://chen5349.github.io/2021/06/27/Visualization_plotpython/"/>
+    <id>http://chen5349.github.io/2021/06/27/Visualization_plotpython/</id>
     <published>2021-06-27T07:55:40.000Z</published>
-    <updated>2021-06-27T12:24:58.846Z</updated>
+    <updated>2021-06-28T01:58:07.166Z</updated>
     
-    <content type="html"><![CDATA[<p>This post will introduce how to visualize the data on the map with the use of choropleth_mapbox, a mighty tool to make realize animation.</p><span id="more"></span><h3 id="Environmental-Complexity-across-China"><a href="#Environmental-Complexity-across-China" class="headerlink" title="Environmental Complexity across China"></a>Environmental Complexity across China</h3><div>    <a href="https://plotly.com/~chen5349/31/?share_key=h1E9vkvdUuh6pB7jXfF6ao" target="_blank" title="Environmental Heterogeneity" style="display: block; text-align: center;"><img src="https://plotly.com/~chen5349/31.png?share_key=h1E9vkvdUuh6pB7jXfF6ao" alt="Environmental Heterogeneity" style="max-width: 100%;width: 759px;"  width="759" onerror="this.onerror=null;this.src='https://plotly.com/404.png';" /></a>    <script data-plotly="chen5349:31" sharekey-plotly="h1E9vkvdUuh6pB7jXfF6ao" src="https://plotly.com/embed.js" async></script></div><h4 id="Environmental-Dispersion-across-China"><a href="#Environmental-Dispersion-across-China" class="headerlink" title="Environmental Dispersion across China"></a>Environmental Dispersion across China</h4><div>    <a href="https://plotly.com/~chen5349/33/?share_key=GbkLVug50xwH1jrtw2RWnm" target="_blank" title="Environmental Dispersion" style="display: block; text-align: center;"><img src="https://plotly.com/~chen5349/33.png?share_key=GbkLVug50xwH1jrtw2RWnm" alt="Environmental Dispersion" style="max-width: 100%;width: 759px;"  width="759" onerror="this.onerror=null;this.src='https://plotly.com/404.png';" /></a>    <script data-plotly="chen5349:33" sharekey-plotly="GbkLVug50xwH1jrtw2RWnm" src="https://plotly.com/embed.js" async></script></div>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;This post will introduce how to visualize the data on the map with the use of choropleth_mapbox, a mighty tool to make realize animation.&lt;/p&gt;</summary>
+    <content type="html"><![CDATA[<p>This post will introduce how to visualize the data on the map with the use of choropleth_mapbox, a mighty tool to realize animation.</p><span id="more"></span><h3 id="Environmental-Complexity-across-China"><a href="#Environmental-Complexity-across-China" class="headerlink" title="Environmental Complexity across China"></a>Environmental Complexity across China</h3><div>    <a href="https://plotly.com/~chen5349/31/?share_key=h1E9vkvdUuh6pB7jXfF6ao" target="_blank" title="Environmental Heterogeneity" style="display: block; text-align: center;"><img src="https://plotly.com/~chen5349/31.png?share_key=h1E9vkvdUuh6pB7jXfF6ao" alt="Environmental Heterogeneity" style="max-width: 100%;width: 759px;"  width="759" onerror="this.onerror=null;this.src='https://plotly.com/404.png';" /></a>    <script data-plotly="chen5349:31" sharekey-plotly="h1E9vkvdUuh6pB7jXfF6ao" src="https://plotly.com/embed.js" async></script></div><h4 id="Environmental-Dispersion-across-China"><a href="#Environmental-Dispersion-across-China" class="headerlink" title="Environmental Dispersion across China"></a>Environmental Dispersion across China</h4><div>    <a href="https://plotly.com/~chen5349/33/?share_key=GbkLVug50xwH1jrtw2RWnm" target="_blank" title="Environmental Dispersion" style="display: block; text-align: center;"><img src="https://plotly.com/~chen5349/33.png?share_key=GbkLVug50xwH1jrtw2RWnm" alt="Environmental Dispersion" style="max-width: 100%;width: 759px;"  width="759" onerror="this.onerror=null;this.src='https://plotly.com/404.png';" /></a>    <script data-plotly="chen5349:33" sharekey-plotly="GbkLVug50xwH1jrtw2RWnm" src="https://plotly.com/embed.js" async></script></div>]]></content>
     
     
+    <summary type="html">&lt;p&gt;This post will introduce how to visualize the data on the map with the use of choropleth_mapbox, a mighty tool to realize animation.&lt;/p&gt;</summary>
     
-    <category term="visualization" scheme="http://example.com/categories/visualization/"/>
     
     
-    <category term="plotly" scheme="http://example.com/tags/plotly/"/>
+    <category term="visualization" scheme="http://chen5349.github.io/categories/visualization/"/>
     
-    <category term="python" scheme="http://example.com/tags/python/"/>
     
-    <category term="External Environment" scheme="http://example.com/tags/External-Environment/"/>
+    <category term="plotly" scheme="http://chen5349.github.io/tags/plotly/"/>
+    
+    <category term="python" scheme="http://chen5349.github.io/tags/python/"/>
+    
+    <category term="External Environment" scheme="http://chen5349.github.io/tags/External-Environment/"/>
     
   </entry>
   
