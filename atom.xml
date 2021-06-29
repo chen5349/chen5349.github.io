@@ -6,7 +6,7 @@
   <link href="http://chen5349.github.io/atom.xml" rel="self"/>
   
   <link href="http://chen5349.github.io/"/>
-  <updated>2021-06-29T07:33:49.974Z</updated>
+  <updated>2021-06-29T07:35:48.694Z</updated>
   <id>http://chen5349.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://chen5349.github.io/2021/06/28/picture/"/>
     <id>http://chen5349.github.io/2021/06/28/picture/</id>
     <published>2021-06-28T12:44:52.000Z</published>
-    <updated>2021-06-29T07:33:49.974Z</updated>
+    <updated>2021-06-29T07:35:48.694Z</updated>
     
     <content type="html"><![CDATA[<img alt itemprop="image" src="https://res.cloudinary.com/chen5349/image/upload/v1624888727/landscape/wp4815672_ywb8si.jpg" style="display: block;"><p>Try many ways to upload images to hexo under the theme of tranquilpeak, but fail in a day’s trials. </p><p>Only url method works. You can use url directly for gravatar and blog writing.</p> <span id="more"></span><p>Your can upload your picture in Cloudinary, which provides url you can use in writing blogs.</p><img src="https://res.cloudinary.com/chen5349/image/upload/v1624887862/landscape/30-beautiful-wallpapers-for-long-screen-phones-picture-1-NxU2xsS4c_jgynsi.jpg" style="zoom:100%;">]]></content>
     
@@ -33,12 +33,14 @@
     
     
     
-    <category term="visualization" scheme="http://chen5349.github.io/categories/visualization/"/>
+    <category term="blog configuration" scheme="http://chen5349.github.io/categories/blog-configuration/"/>
     
     
     <category term="hexo" scheme="http://chen5349.github.io/tags/hexo/"/>
     
     <category term="url" scheme="http://chen5349.github.io/tags/url/"/>
+    
+    <category term="tranquilpeak" scheme="http://chen5349.github.io/tags/tranquilpeak/"/>
     
   </entry>
   
