@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="generator" content="Personal Blog">
-    <title>Tag: hexo - Personal Blog</title>
+    <title>Tag: Hexo - Personal Blog</title>
     <meta name="author" content="Wenna Chen">
     
     
@@ -18,7 +18,7 @@
     <script type="application/ld+json">{}</script>
     <meta property="og:type" content="blog">
 <meta property="og:title" content="Personal Blog">
-<meta property="og:url" content="http://chen5349.github.io/tags/hexo/index.html">
+<meta property="og:url" content="http://chen5349.github.io/tags/Hexo/index.html">
 <meta property="og:site_name" content="Personal Blog">
 <meta property="og:locale" content="en_US">
 <meta property="article:author" content="Wenna Chen">
@@ -339,7 +339,7 @@
     <section class="postShorten-group main-content-wrap">
     
     
-    <article class="postShorten postShorten--thumbnailimg-right">
+    <article class="postShorten postShorten--thumbnailimg-bottom">
         <div class="postShorten-wrap">
             
             <div class="postShorten-header">
@@ -347,17 +347,17 @@
                     
                         <a
                             class="link-unstyled"
-                            href="/2021/06/28/picture/"
-                            aria-label=": Cloudinary + Hexo"
+                            href="/2021/07/01/personal-access-token/"
+                            aria-label=": personal-access-token"
                         >
-                            Cloudinary + Hexo
+                            personal-access-token
                         </a>
                     
                 </h1>
                 <div class="postShorten-meta">
-    <time datetime="2021-06-28T20:44:52+08:00">
+    <time datetime="2021-07-01T02:59:36+08:00">
 	
-		    Jun 28, 2021
+		    Jul 01, 2021
     	
     </time>
     
@@ -371,20 +371,36 @@
 
             </div>
             
-                <div class="postShorten-excerpt">
-                    <img alt itemprop="image" src="https://res.cloudinary.com/chen5349/image/upload/v1624888727/landscape/wp4815672_ywb8si.jpg" style="display: block;">
+                <div class="postShorten-content">
+                    <p>Today, I suddenly got this messsage when i deploy my blog to Github.</p>
+<blockquote>
+<p>remote: Password authentication is temporarily disabled as part of a brownout. Please use a personal access token instead.</p>
+<p>remote: Please see <a target="_blank" rel="noopener" href="https://github.blog/2020-07-30-token-authentication-requirements-for-api-and-git-operations/">https://github.blog/2020-07-30-token-authentication-requirements-for-api-and-git-operations/</a> for more information.</p>
+</blockquote>
+<p>You need to get the persosnal accesss token in reference to the following website</p>
+<p><a target="_blank" rel="noopener" href="https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token">https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token</a></p>
+<p>Copy the token and revise the Hexo/_config.yml in the following way. Problem solved!</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">  <span class="attr">repository:</span> <span class="string">https://GITHUB_ACCESS_TOKEN@github.com/your-github-id/your-github-repo-name.git</span> </span><br><span class="line">  <span class="comment"># it works with or without .git in the end</span></span><br><span class="line">  <span class="attr">branch:</span> <span class="string">master</span></span><br></pre></td></tr></table></figure>
 
-<p>Try many ways to upload images to hexo under the theme of tranquilpeak, but fail in a day’s trials. </p>
-<p>Only url method works. You can use url directly for gravatar and blog writing.</p>
+
+
+<p>Reference: <a target="_blank" rel="noopener" href="https://cyfeng.science/2020/01/31/hexo-github-action/">https://cyfeng.science/2020/01/31/hexo-github-action/</a></p>
+
                     
-                        <a
-                            href="/2021/06/28/picture/"
-                            class="postShorten-excerpt_link link"
-                            aria-label=": Cloudinary + Hexo"
-                        >
-                            Continue reading
-                        </a>
                         
+
+
+                    
+                    
+                        <p>
+                            <a
+                                href="/2021/07/01/personal-access-token/#post-footer"
+                                class="postShorten-excerpt_link link"
+                                aria-label=""
+                            >
+                                Comment and share
+                            </a>
+                        </p>
                     
                 </div>
             
@@ -567,6 +583,29 @@
                     <hr>
                 </div>
                 
+                <div class="media">
+                    
+                    <div class="media-body">
+                        <a
+                            class="link-unstyled"
+                            href="http://chen5349.github.io/2021/07/01/personal-access-token/"
+                            aria-label=": personal-access-token"
+                        >
+                            <h3 class="media-heading">personal-access-token</h3>
+                        </a>
+                        <span class="media-meta">
+                            <span class="media-date text-small">
+                                
+                                    Jul 1, 2021
+                                
+                            </span>
+                        </span>
+                        <div class="media-content hide-xs font-merryweather"></div>
+                    </div>
+                    <div style="clear:both;"></div>
+                    <hr>
+                </div>
+                
             </div>
         </div>
         <div class="modal-footer">
@@ -574,7 +613,7 @@
                 data-message-zero="no post found"
                 data-message-one="1 post found"
                 data-message-other="{n} posts found">
-                4 posts found
+                5 posts found
             </p>
         </div>
     </div>
