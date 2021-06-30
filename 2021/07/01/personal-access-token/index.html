@@ -15,16 +15,16 @@
             <link rel="alternate" type="application/atom+xml" title="RSS" href="/atom.xml">
         
     
-    <script type="application/ld+json">{"@context":"http://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Wenna Chen","sameAs":["https://github.com/","http://stackoverflow.com/users","https://twitter.com/","https://facebook.com/","https://plus.google.com/","https://www.linkedin.com/profile/","mailto"],"image":"https://res.cloudinary.com/chen5349/image/upload/v1624887373/profile_wx71r5.jpg"},"articleBody":"Today, I suddenly got this messsage when i deploy my blog to Github.\n\nremote: Password authentication is temporarily disabled as part of a brownout. Please use a personal access token instead.\nremote: Please see https://github.blog/2020-07-30-token-authentication-requirements-for-api-and-git-operations/ for more information.\n\nYou need to get the persosnal accesss token in reference to the following website\nhttps://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token\nCopy the token and revise the Hexo/_config.yml in the following way. Problem solved!\n12345deploy:  type: git  repository: https://GITHUB_ACCESS_TOKEN@github.com/your-github-id/your-github-repo-name.git   # it works with or without .git in the end  branch: master\n\n\n\nReference: https://cyfeng.science/2020/01/31/hexo-github-action/\n","dateCreated":"2021-07-01T02:59:36+08:00","dateModified":"2021-07-01T03:14:14+08:00","datePublished":"2021-07-01T02:59:36+08:00","description":"","headline":"personal-access-token","image":[],"mainEntityOfPage":{"@type":"WebPage","@id":"http://chen5349.github.io/2021/07/01/personal-access-token/"},"publisher":{"@type":"Organization","name":"Wenna Chen","sameAs":["https://github.com/","http://stackoverflow.com/users","https://twitter.com/","https://facebook.com/","https://plus.google.com/","https://www.linkedin.com/profile/","mailto"],"image":"https://res.cloudinary.com/chen5349/image/upload/v1624887373/profile_wx71r5.jpg","logo":{"@type":"ImageObject","url":"https://res.cloudinary.com/chen5349/image/upload/v1624887373/profile_wx71r5.jpg"}},"url":"http://chen5349.github.io/2021/07/01/personal-access-token/","keywords":"Hexo, Github, Token"}</script>
-    <meta name="description" content="Today, I suddenly got this messsage when i deploy my blog to Github.  remote: Password authentication is temporarily disabled as part of a brownout. Please use a personal access token instead. remote:">
+    <script type="application/ld+json">{"@context":"http://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Wenna Chen","sameAs":["https://github.com/","http://stackoverflow.com/users","https://twitter.com/","https://facebook.com/","https://plus.google.com/","https://www.linkedin.com/profile/","mailto"],"image":"https://res.cloudinary.com/chen5349/image/upload/v1624887373/profile_wx71r5.jpg"},"articleBody":"Today, I suddenly got this messsage when I deploy my blog to Github.\n\nremote: Password authentication is temporarily disabled as part of a brownout. Please use a personal access token instead.\nremote: Please see https://github.blog/2020-07-30-token-authentication-requirements-for-api-and-git-operations/ for more information.\n\n\n\n\nTo solve this, you first need to get the persosnal accesss token in reference to the following website.\n\nhttps://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token\n\nCopy the token and revise the _config.yml underr Hexo in the following way. \n\n12345deploy:  type: git  repository: https://GITHUB_ACCESS_TOKEN@github.com/your-github-id/your-github-repo-name.git   # it works with or without .git in the end  branch: master\n\nReference: https://cyfeng.science/2020/01/31/hexo-github-action/\n","dateCreated":"2021-07-01T02:59:36+08:00","dateModified":"2021-07-01T03:17:05+08:00","datePublished":"2021-07-01T02:59:36+08:00","description":"Today, I suddenly got this messsage when I deploy my blog to Github.\n\nremote: Password authentication is temporarily disabled as part of a brownout. Please use a personal access token instead.\nremote: Please see https://github.blog/2020-07-30-token-authentication-requirements-for-api-and-git-operations/ for more information.\n","headline":"personal-access-token","image":[],"mainEntityOfPage":{"@type":"WebPage","@id":"http://chen5349.github.io/2021/07/01/personal-access-token/"},"publisher":{"@type":"Organization","name":"Wenna Chen","sameAs":["https://github.com/","http://stackoverflow.com/users","https://twitter.com/","https://facebook.com/","https://plus.google.com/","https://www.linkedin.com/profile/","mailto"],"image":"https://res.cloudinary.com/chen5349/image/upload/v1624887373/profile_wx71r5.jpg","logo":{"@type":"ImageObject","url":"https://res.cloudinary.com/chen5349/image/upload/v1624887373/profile_wx71r5.jpg"}},"url":"http://chen5349.github.io/2021/07/01/personal-access-token/","keywords":"Hexo, Github, Token"}</script>
+    <meta name="description" content="Today, I suddenly got this messsage when I deploy my blog to Github.  remote: Password authentication is temporarily disabled as part of a brownout. Please use a personal access token instead. remote:">
 <meta property="og:type" content="blog">
 <meta property="og:title" content="personal-access-token">
 <meta property="og:url" content="http://chen5349.github.io/2021/07/01/personal-access-token/index.html">
 <meta property="og:site_name" content="Personal Blog">
-<meta property="og:description" content="Today, I suddenly got this messsage when i deploy my blog to Github.  remote: Password authentication is temporarily disabled as part of a brownout. Please use a personal access token instead. remote:">
+<meta property="og:description" content="Today, I suddenly got this messsage when I deploy my blog to Github.  remote: Password authentication is temporarily disabled as part of a brownout. Please use a personal access token instead. remote:">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2021-06-30T18:59:36.000Z">
-<meta property="article:modified_time" content="2021-06-30T19:14:14.297Z">
+<meta property="article:modified_time" content="2021-06-30T19:17:05.080Z">
 <meta property="article:author" content="Wenna Chen">
 <meta property="article:tag" content="Hexo">
 <meta property="article:tag" content="Github">
@@ -374,17 +374,21 @@
     
     <div class="post-content markdown">
         <div class="main-content-wrap">
-            <p>Today, I suddenly got this messsage when i deploy my blog to Github.</p>
+            <p>Today, I suddenly got this messsage when I deploy my blog to Github.</p>
 <blockquote>
 <p>remote: Password authentication is temporarily disabled as part of a brownout. Please use a personal access token instead.</p>
 <p>remote: Please see <a target="_blank" rel="noopener" href="https://github.blog/2020-07-30-token-authentication-requirements-for-api-and-git-operations/">https://github.blog/2020-07-30-token-authentication-requirements-for-api-and-git-operations/</a> for more information.</p>
 </blockquote>
-<p>You need to get the persosnal accesss token in reference to the following website</p>
+<span id="more"></span>
+
+<ul>
+<li>To solve this, you first need to get the persosnal accesss token in reference to the following website.</li>
+</ul>
 <p><a target="_blank" rel="noopener" href="https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token">https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token</a></p>
-<p>Copy the token and revise the Hexo/_config.yml in the following way. Problem solved!</p>
+<ul>
+<li>Copy the token and revise the _config.yml underr Hexo in the following way. </li>
+</ul>
 <figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">  <span class="attr">repository:</span> <span class="string">https://GITHUB_ACCESS_TOKEN@github.com/your-github-id/your-github-repo-name.git</span> </span><br><span class="line">  <span class="comment"># it works with or without .git in the end</span></span><br><span class="line">  <span class="attr">branch:</span> <span class="string">master</span></span><br></pre></td></tr></table></figure>
-
-
 
 <p>Reference: <a target="_blank" rel="noopener" href="https://cyfeng.science/2020/01/31/hexo-github-action/">https://cyfeng.science/2020/01/31/hexo-github-action/</a></p>
 
@@ -826,7 +830,11 @@
                                 
                             </span>
                         </span>
-                        <div class="media-content hide-xs font-merryweather"></div>
+                        <div class="media-content hide-xs font-merryweather"><p>Today, I suddenly got this messsage when I deploy my blog to Github.</p>
+<blockquote>
+<p>remote: Password authentication is temporarily disabled as part of a brownout. Please use a personal access token instead.</p>
+<p>remote: Please see <a target="_blank" rel="noopener" href="https://github.blog/2020-07-30-token-authentication-requirements-for-api-and-git-operations/">https://github.blog/2020-07-30-token-authentication-requirements-for-api-and-git-operations/</a> for more information.</p>
+</blockquote></div>
                     </div>
                     <div style="clear:both;"></div>
                     <hr>
