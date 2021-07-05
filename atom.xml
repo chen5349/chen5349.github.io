@@ -6,7 +6,7 @@
   <link href="http://chen5349.github.io/atom.xml" rel="self"/>
   
   <link href="http://chen5349.github.io/"/>
-  <updated>2021-07-05T02:11:51.155Z</updated>
+  <updated>2021-06-30T19:17:05.080Z</updated>
   <id>http://chen5349.github.io/</id>
   
   <author>
@@ -15,26 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>check</title>
-    <link href="http://chen5349.github.io/2021/07/05/check/"/>
-    <id>http://chen5349.github.io/2021/07/05/check/</id>
-    <published>2021-07-05T02:11:14.000Z</published>
-    <updated>2021-07-05T02:11:51.155Z</updated>
-    
-    <content type="html"><![CDATA[<p>Cox’s insight was that the first term, the death assignment probabilities, given event times, contains most of the information about $\beta$, while the remaining term contains most of the information about ${\lambda}_0(t)$. We can thus maximize the product of the first terms, the <strong>partial likelihood</strong>: the part of the likelihood that contains most of the information about $\beta$. Later authors [2,3] proved that doing so gives consistent and asymptotically normal estimates $$\hat{\beta}$$ and $$\beta$.</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Cox’s insight was that the first term, the death assignment probabilities, given event times, contains most of the information about $\be</summary>
-      
-    
-    
-    
-    
-  </entry>
   
   <entry>
     <title>personal-access-token</title>
